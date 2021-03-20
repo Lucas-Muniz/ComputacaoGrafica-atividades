@@ -71,14 +71,14 @@ void OpenGLWindow::initializeGL() {
   m_randomEngine.seed(seed);
 
   m_starLayers.initializeGL(m_starsProgram, 25);
-  restart();
+  restart(State::Playing);
 }
 
-void OpenGLWindow::restart() {
+void OpenGLWindow::restart(State state) {
   m_gameData.m_state = State::Playing;
 
   m_ship.initializeGL(m_objectsProgram);
-  m_enemies.initializeGL(m_objectsProgram);
+  m_enemies.initializeGL(m_objectsProgram, state);
   m_bullets.initializeGL(m_objectsProgram);
   m_forcefield.initializeGL(m_objectsProgram);
 }
@@ -89,7 +89,7 @@ void OpenGLWindow::update() {
   // Wait 5 seconds before restarting
   if (m_gameData.m_state != State::Playing &&
       m_restartWaitTimer.elapsed() > 5) {
-    restart();
+    restart(m_gameData.m_state);
     return;
   }
 

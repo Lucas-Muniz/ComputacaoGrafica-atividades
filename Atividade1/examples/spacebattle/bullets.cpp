@@ -85,17 +85,18 @@ void Bullets::update(Ship &ship, const GameData &gameData, float deltaTime) {
       // Bullets are shot in the direction of the ship's forward vector
       glm::vec2 forward{glm::rotate(glm::vec2{0.0f, 1.0f}, ship.m_rotation)};
       glm::vec2 right{glm::rotate(glm::vec2{1.0f, 0.0f}, ship.m_rotation)};
+      glm::vec2 cannonHeight{ship.m_scale * glm::vec2{0.0f, -0.5f}};
       auto cannonOffset{(11.0f / 15.5f) * ship.m_scale};
       auto bulletSpeed{2.0f};
 
       Bullet bullet{.m_origin = Origin::Player,
                     .m_dead = false,
-                    .m_translation = ship.m_translation + right * cannonOffset,
-                    .m_velocity = ship.m_velocity + forward * bulletSpeed,
+                    .m_translation = ship.m_translation + right * cannonOffset +  cannonHeight,
+                    .m_velocity = forward * bulletSpeed,
                     .m_color = glm::vec4{1.0f, 1.0f, 1.0f, 1.0f}};
       m_bullets.push_back(bullet);
 
-      bullet.m_translation = ship.m_translation - right * cannonOffset;
+      bullet.m_translation = ship.m_translation - right * cannonOffset + cannonHeight;
       m_bullets.push_back(bullet);
     }
   }
@@ -117,7 +118,7 @@ void Bullets::update(Ship &ship, const GameData &gameData, float deltaTime) {
 
 void Bullets::update(Enemies &enemies, const GameData &gameData, float deltaTime) {
   if (gameData.m_state == State::Playing){
-    if (enemies.m_bulletCoolDownTimer.elapsed() > 1.5) {
+    if (enemies.m_bulletCoolDownTimer.elapsed() > 1.0) {
       enemies.m_bulletCoolDownTimer.restart();
 
       for (auto &enemy : enemies.m_horde){
@@ -132,8 +133,7 @@ void Bullets::update(Enemies &enemies, const GameData &gameData, float deltaTime
                         .m_velocity = forward * bulletSpeed,
                         .m_color = enemy.m_color};
           m_bullets.push_back(bullet);
-        }
-                
+        }          
       }
 
     }
@@ -141,10 +141,8 @@ void Bullets::update(Enemies &enemies, const GameData &gameData, float deltaTime
     
 
     for (auto &bullet : m_bullets) {
-      //bullet.m_translation -= ship.m_velocity * deltaTime;
       bullet.m_translation += bullet.m_velocity * deltaTime;
 
-        
       // Kill bullet if it goes off screen
       if (bullet.m_translation.x < -1.1f) bullet.m_dead = true;
       if (bullet.m_translation.x > +1.1f) bullet.m_dead = true;

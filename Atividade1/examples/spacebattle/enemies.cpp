@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void Enemies::initializeGL(GLuint program) {
+void Enemies::initializeGL(GLuint program, State state) {
   terminateGL();
 
   m_program = program;
@@ -21,7 +21,9 @@ void Enemies::initializeGL(GLuint program) {
  float step = (2.0f/(m_horde.size()+1.0f));
  float pos;
  int index = 1;
- m_level += 1;
+ if (state == State::Win){
+   m_level += 1;
+ }
  for (auto &enemy : m_horde){
     pos = (index*step) - 1.0f;
     enemy.m_translation = glm::vec2{pos, 0.8f};
@@ -31,9 +33,8 @@ void Enemies::initializeGL(GLuint program) {
     index += 1;
   }
 
-  // clang-format off
   std::array<glm::vec2, 7> positions{
-      // Ship body
+      // Enemy ship body
       glm::vec2{0.0f, -15.5f}, glm::vec2{-11.5f, +12.5f},
       glm::vec2{0.0f, +07.75f}, glm::vec2{+11.5f, +12.5f},
       glm::vec2{0.0f, 15.5f}, glm::vec2{-05.75f, 10.125f},

@@ -14,7 +14,7 @@ class StarLayers;
 
 class Enemies {
  public:
-  void initializeGL(GLuint program);
+  void initializeGL(GLuint program, State state);
   void paintGL(const GameData &gameData);
   void terminateGL();
 

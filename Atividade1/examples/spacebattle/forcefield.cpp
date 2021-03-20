@@ -93,8 +93,8 @@ void ForceField::update(const GameData &gameData){
   // Create a pair of bullets
   if (gameData.m_input[static_cast<size_t>(Input::Field)] &&
       gameData.m_state == State::Playing) {
-    // At least 5 seconds must have passed since the last force field activation
-    if (m_forcefieldLoadingTimer.elapsed() > 5.0) {
+    // At least 10 seconds must have passed since the last force field activation
+    if (m_forcefieldLoadingTimer.elapsed() > 10.0) {
       m_activationTimer.restart();
       m_active = true;
     }

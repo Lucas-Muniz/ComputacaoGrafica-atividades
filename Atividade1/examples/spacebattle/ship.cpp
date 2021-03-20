@@ -14,24 +14,24 @@ void Ship::initializeGL(GLuint program) {
 
   m_rotation = 0.0f;
   m_translation = glm::vec2{0.0f, -0.8f};
-  m_velocity = glm::vec2(0);
 
-  // clang-format off
-  std::array<glm::vec2, 24> positions{
+  std::array<glm::vec2, 21> positions{
       // Ship body
-      glm::vec2{-02.5f, +12.5f}, glm::vec2{-15.5f, +02.5f},
-      glm::vec2{-15.5f, -12.5f}, glm::vec2{-09.5f, -07.5f},
-      glm::vec2{-03.5f, -12.5f}, glm::vec2{+03.5f, -12.5f},
-      glm::vec2{+09.5f, -07.5f}, glm::vec2{+15.5f, -12.5f},
-      glm::vec2{+15.5f, +02.5f}, glm::vec2{+02.5f, +12.5f},
+      glm::vec2{0.0f, +15.5f}, glm::vec2{5.2f, 08.0f},
+      glm::vec2{5.2f, 1.0f}, glm::vec2{15.5f, -11.0f},
+      glm::vec2{15.5f, -15.5f}, glm::vec2{+06.0f, -10.0f},
+      glm::vec2{+05.0f, -14.0f}, glm::vec2{-5.0f, -14.0f},
+      glm::vec2{-06.0f, -10.0f}, glm::vec2{-15.5f, -15.5f},
+      glm::vec2{-15.5f, -11.0f}, glm::vec2{-05.2f, 1.0f},
+      glm::vec2{-05.2f, +08.0f},
 
       // Cannon left
-      glm::vec2{-12.5f, +10.5f}, glm::vec2{-12.5f, +04.0f},
-      glm::vec2{-09.5f, +04.0f}, glm::vec2{-09.5f, +10.5f},
+      glm::vec2{-12.5f, -00.5f}, glm::vec2{-12.5f, -08.0f},
+      glm::vec2{-09.5f, -08.0f}, glm::vec2{-09.5f, -00.5f},
 
       // Cannon right
-      glm::vec2{+09.5f, +10.5f}, glm::vec2{+09.5f, +04.0f},
-      glm::vec2{+12.5f, +04.0f}, glm::vec2{+12.5f, +10.5f},
+      glm::vec2{+12.5f, -00.5f}, glm::vec2{+12.5f, -08.0f},
+      glm::vec2{+09.5f, -08.0f}, glm::vec2{+09.5f, -00.5f}
       };
 
   // Normalize
@@ -39,21 +39,23 @@ void Ship::initializeGL(GLuint program) {
     position /= glm::vec2{15.5f, 15.5f};
   }
 
-  std::array indices{0, 1, 3,
-                     1, 2, 3,
-                     0, 3, 4,
-                     0, 4, 5,
-                     9, 0, 5,
-                     9, 5, 6,
-                     9, 6, 8,
-                     8, 6, 7,
+  std::array indices{0, 1, 12,
+                     1, 12, 11,
+                     1, 2, 11,
+                     11, 10, 9,
+                     9, 11, 8,
+                     8, 11, 5,
+                     11, 2, 5,
+                     8, 7, 5,
+                     7, 5, 6,
+                     2, 5, 4,
+                     4, 3, 2,
                      // Cannons
-                     10, 11, 12,
-                     10, 12, 13,
-                     14, 15, 16,
-                     14, 16, 17,
+                     13, 14, 15,
+                     13, 15, 16,
+                     17, 18, 19,
+                     17, 19, 20
                      };
-  // clang-format on
 
   // Generate VBO
   glGenBuffers(1, &m_vbo);
@@ -100,12 +102,9 @@ void Ship::paintGL(const GameData &gameData) {
   glUniform1f(m_rotationLoc, m_rotation);
   glUniform2f(m_translationLoc, m_translation.x, m_translation.y);
 
-  // Restart thruster blink timer every 100 ms
-  if (m_trailBlinkTimer.elapsed() > 100.0 / 1000.0) m_trailBlinkTimer.restart();
-
   glUniform4fv(m_colorLoc, 1, &m_color.r);
   glUniform2f(m_translationLoc, m_translation.x, m_translation.y);
-  glDrawElements(GL_TRIANGLES, 12 * 3, GL_UNSIGNED_INT, nullptr);
+  glDrawElements(GL_TRIANGLES, 15 * 3, GL_UNSIGNED_INT, nullptr);
 
   glBindVertexArray(0);
 

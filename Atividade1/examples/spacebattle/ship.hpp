@@ -43,11 +43,9 @@ class Ship {
   float m_scale{0.125f};
   float m_diagonal_velocity{2.0f};
   glm::vec2 m_translation{glm::vec2(0)};
-  glm::vec2 m_velocity{glm::vec2(0)};
   glm::vec2 m_ship_center{glm::vec2(0)};
   bool m_fieldactive{false};
 
-  abcg::ElapsedTimer m_trailBlinkTimer;
   abcg::ElapsedTimer m_bulletCoolDownTimer;
 };
 
