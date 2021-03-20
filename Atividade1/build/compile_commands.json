@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_application.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_application.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_elapsedtimer.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_elapsedtimer.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_exception.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_exception.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_image.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_image.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_openglfunctions.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_openglfunctions.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_openglwindow.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_openglwindow.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_string.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_string.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_trackball.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_trackball.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_demo.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_draw.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_widgets.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_impl_sdl.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_impl_sdl.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt",
+  "command": "/usr/bin/c++   -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/fmt.dir/format.cc.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/main.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/main.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/main.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/openglwindow.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/openglwindow.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/openglwindow.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/bullets.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/bullets.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/bullets.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/ship.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/ship.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/ship.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/starlayers.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/starlayers.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/starlayers.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/enemies.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/enemies.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/enemies.cpp"
+},
+{
+  "directory": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2 -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/cppitertools -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/glm/.. -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/gsl -I/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui -isystem /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/spacebattle.dir/forcefield.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/forcefield.cpp",
+  "file": "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/spacebattle/forcefield.cpp"
+}
+]
