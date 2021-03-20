@@ -15,7 +15,7 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
       m_gameData.m_input.set(static_cast<size_t>(Input::Left));
     if (event.key.keysym.sym == SDLK_RIGHT || event.key.keysym.sym == SDLK_d)
       m_gameData.m_input.set(static_cast<size_t>(Input::Right));
-    if (event.key.keysym.sym == SDLK_COMPUTER || event.key.keysym.sym == SDLK_RCTRL || event.key.keysym.sym == SDLK_LCTRL)
+    if (event.key.keysym.sym == SDLK_RCTRL || event.key.keysym.sym == SDLK_LCTRL)
       m_gameData.m_input.set(static_cast<size_t>(Input::Field));
   }
   if (event.type == SDL_KEYUP) {
@@ -42,16 +42,6 @@ void OpenGLWindow::handleEvent(SDL_Event &event) {
     if (event.button.button == SDL_BUTTON_RIGHT)
       m_gameData.m_input.reset(static_cast<size_t>(Input::Field));
   }
-  /*
-  if (event.type == SDL_MOUSEMOTION) {
-    glm::ivec2 mousePosition;
-    SDL_GetMouseState(&mousePosition.x, &mousePosition.y);
-
-    glm::vec2 direction{glm::vec2{mousePosition.x - m_viewportWidth / 2,
-                                  mousePosition.y - m_viewportHeight / 2}};
-    direction.y = -direction.y;
-    m_ship.setRotation(std::atan2(direction.y, direction.x) - M_PI_2);
-  }*/
 }
 
 void OpenGLWindow::initializeGL() {
@@ -176,16 +166,19 @@ void OpenGLWindow::terminateGL() {
 
 void OpenGLWindow::checkCollisions() {
   // Check collision between bullets and ship
-  for (auto &bullet : m_bullets.m_bullets) {
-    if (bullet.m_dead || bullet.m_origin == Origin::Player) continue;
+  if(!m_ship.m_fieldactive){
+    for (auto &bullet : m_bullets.m_bullets) {
+      if (bullet.m_dead || bullet.m_origin == Origin::Player) continue;
 
-    auto distance{glm::distance(bullet.m_translation, m_ship.m_translation)};
-    if (distance < m_bullets.m_scale + m_ship.m_scale * 0.85f) {
-      m_gameData.m_state = State::GameOver;
-      m_restartWaitTimer.restart();
-      bullet.m_dead = true;
+      auto distance{glm::distance(bullet.m_translation, m_ship.m_translation)};
+      if (distance < m_bullets.m_scale + m_ship.m_scale * 0.85f) {
+        m_gameData.m_state = State::GameOver;
+        m_restartWaitTimer.restart();
+        bullet.m_dead = true;
+      }
     }
   }
+  
 
   // Check collision between bullets and enemies
   for (auto &bullet : m_bullets.m_bullets) {

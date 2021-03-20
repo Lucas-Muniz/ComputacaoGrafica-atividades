@@ -42,7 +42,6 @@ class Enemies {
     int m_life{4};
     bool m_dead{false};
     glm::vec2 m_translation{glm::vec2(0)};
-    //glm::vec2 m_velocity{glm::vec2(0)};
     glm::vec4 m_color{glm::vec4{0.0f, 1.0f, 0.0f, 1.0f}};
     float m_rotation{0.0f};
   };

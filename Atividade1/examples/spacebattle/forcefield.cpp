@@ -72,9 +72,6 @@ void ForceField::paintGL(Ship &ship){
 
       glDisable(GL_BLEND);
 
-      //glUniform4fv(m_colorLoc, 1, &color.r);
-      //glDrawArrays(GL_LINE_LOOP, 0, m_circleSides);
-
       glBindVertexArray(0);
 
       glUseProgram(0);
