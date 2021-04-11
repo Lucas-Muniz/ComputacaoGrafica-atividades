@@ -58,17 +58,18 @@ include abcg/external/fmt/CMakeFiles/fmt.dir/progress.make
 include abcg/external/fmt/CMakeFiles/fmt.dir/flags.make
 
 abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o: abcg/external/fmt/CMakeFiles/fmt.dir/flags.make
+abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o: abcg/external/fmt/CMakeFiles/fmt.dir/includes_CXX.rsp
 abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o: ../abcg/external/fmt/format.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fmt.dir/format.cc.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fmt.dir/format.cc.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc
 
 abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fmt.dir/format.cc.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc > CMakeFiles/fmt.dir/format.cc.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc > CMakeFiles/fmt.dir/format.cc.i
 
 abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fmt.dir/format.cc.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc -o CMakeFiles/fmt.dir/format.cc.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/fmt && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/fmt/format.cc -o CMakeFiles/fmt.dir/format.cc.s
 
 # Object files for target fmt
 fmt_OBJECTS = \

@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

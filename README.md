@@ -1,2 +1,2 @@
 # Computação Gráfica - Atividades
-Atividades desevolvidas para a disciplina de Computação Gráfica da UFABC.
+Atividades desenvolvidas para a disciplina de Computação Gráfica da UFABC (QS 2021.1).

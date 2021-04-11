@@ -13,11 +13,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_string.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o"
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/abcg_trackball.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/SDL2"
   "../abcg"
   "../abcg/external/cppitertools"
   "../abcg/external/fmt"

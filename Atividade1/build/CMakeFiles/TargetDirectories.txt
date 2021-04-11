@@ -19,6 +19,6 @@
 /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/gsl/CMakeFiles/edit_cache.dir
 /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/CMakeFiles/rebuild_cache.dir
 /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/CMakeFiles/edit_cache.dir
-/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle/CMakeFiles/rebuild_cache.dir
-/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle/CMakeFiles/edit_cache.dir
-/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/spacebattle/CMakeFiles/spacebattle.dir
+/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies/CMakeFiles/rebuild_cache.dir
+/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies/CMakeFiles/edit_cache.dir
+/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies/CMakeFiles/threebodies.dir
