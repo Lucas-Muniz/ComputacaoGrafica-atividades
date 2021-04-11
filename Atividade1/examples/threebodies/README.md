@@ -17,9 +17,9 @@ Esta aplicação 3D, inspirada no clássico [problema dos três corpos](https://
 
 A aplicação possui os seguintes movimentos de câmera:
 
-* *Dolly*: as setas pra cima/pra baixo (botões <kbd>↑</kbd>/<kbd>↓</kbd>) permitem movimentar a cãmera pra frente e pra trás ao longo da direção de visão, respectivamente.
+* *Dolly*: as setas pra cima/pra baixo (botões <kbd>↑</kbd>/<kbd>↓</kbd>) permitem movimentar a câmera pra frente e pra trás ao longo da direção de visão, respectivamente.
 
-* *Truck*: as setas pra esquerda/pra direita (botões <kbd>←</kbd>/<kbd>→</kbd>)  permitem movimentar a cãmera pra esquerda e pra direita, respectivamente.
+* *Truck*: as setas pra esquerda/pra direita (botões <kbd>←</kbd>/<kbd>→</kbd>)  permitem movimentar a câmera pra esquerda e pra direita, respectivamente.
 
 * *Pan*: as teclas <kbd>A</kbd> e <kbd>D</kbd> fazem a câmera girar em torno de seu eixo **y**.
 
