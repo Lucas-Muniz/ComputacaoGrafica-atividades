@@ -11,10 +11,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o"
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/SDL2"
   "../abcg"
   "../abcg/external/cppitertools"
   "../abcg/external/fmt"

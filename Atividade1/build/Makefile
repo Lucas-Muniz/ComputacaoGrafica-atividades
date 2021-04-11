@@ -150,6 +150,19 @@ fmt/fast:
 .PHONY : fmt/fast
 
 #=============================================================================
+# Target rules for targets named spacebattle
+
+# Build rule for target.
+spacebattle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spacebattle
+.PHONY : spacebattle
+
+# fast build rule for target.
+spacebattle/fast:
+	$(MAKE) -f examples/spacebattle/CMakeFiles/spacebattle.dir/build.make examples/spacebattle/CMakeFiles/spacebattle.dir/build
+.PHONY : spacebattle/fast
+
+#=============================================================================
 # Target rules for targets named threebodies
 
 # Build rule for target.
@@ -173,6 +186,7 @@ help:
 	@echo "... abcg"
 	@echo "... imgui"
 	@echo "... fmt"
+	@echo "... spacebattle"
 	@echo "... threebodies"
 .PHONY : help
 

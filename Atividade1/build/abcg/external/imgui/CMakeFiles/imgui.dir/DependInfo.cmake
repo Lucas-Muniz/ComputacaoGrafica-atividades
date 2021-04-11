@@ -11,11 +11,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_impl_sdl.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o"
   "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/abcg/external/imgui/imgui_widgets.cpp" "/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
+  "/usr/include/SDL2"
   "/opt/local/include"
   "../abcg/external/imgui"
   )

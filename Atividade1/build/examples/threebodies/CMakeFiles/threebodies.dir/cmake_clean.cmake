@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../public/threebodies.js"
-  "../../../public/threebodies.pdb"
+  "../../bin/threebodies"
+  "../../bin/threebodies.pdb"
   "CMakeFiles/threebodies.dir/body.cpp.o"
   "CMakeFiles/threebodies.dir/camera.cpp.o"
   "CMakeFiles/threebodies.dir/main.cpp.o"

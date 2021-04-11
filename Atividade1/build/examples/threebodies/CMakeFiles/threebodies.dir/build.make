@@ -58,88 +58,82 @@ include examples/threebodies/CMakeFiles/threebodies.dir/progress.make
 include examples/threebodies/CMakeFiles/threebodies.dir/flags.make
 
 examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o: ../examples/threebodies/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/main.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/main.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/main.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp > CMakeFiles/threebodies.dir/main.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp > CMakeFiles/threebodies.dir/main.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/main.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp -o CMakeFiles/threebodies.dir/main.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/main.cpp -o CMakeFiles/threebodies.dir/main.cpp.s
 
 examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o: ../examples/threebodies/model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/model.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/model.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/model.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp > CMakeFiles/threebodies.dir/model.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp > CMakeFiles/threebodies.dir/model.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/model.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp -o CMakeFiles/threebodies.dir/model.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/model.cpp -o CMakeFiles/threebodies.dir/model.cpp.s
 
 examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o: ../examples/threebodies/openglwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/openglwindow.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/openglwindow.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/openglwindow.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp > CMakeFiles/threebodies.dir/openglwindow.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp > CMakeFiles/threebodies.dir/openglwindow.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/openglwindow.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp -o CMakeFiles/threebodies.dir/openglwindow.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/openglwindow.cpp -o CMakeFiles/threebodies.dir/openglwindow.cpp.s
 
 examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o: ../examples/threebodies/camera.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/camera.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/camera.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/camera.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp > CMakeFiles/threebodies.dir/camera.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp > CMakeFiles/threebodies.dir/camera.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/camera.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp -o CMakeFiles/threebodies.dir/camera.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/camera.cpp -o CMakeFiles/threebodies.dir/camera.cpp.s
 
 examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o: ../examples/threebodies/body.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/body.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/body.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/body.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp > CMakeFiles/threebodies.dir/body.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp > CMakeFiles/threebodies.dir/body.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/body.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp -o CMakeFiles/threebodies.dir/body.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/body.cpp -o CMakeFiles/threebodies.dir/body.cpp.s
 
 examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/flags.make
-examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o: examples/threebodies/CMakeFiles/threebodies.dir/includes_CXX.rsp
 examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o: ../examples/threebodies/threebodies.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /home/lucas/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/threebodies.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/threebodies.dir/threebodies.cpp.o -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp
 
 examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threebodies.dir/threebodies.cpp.i"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp > CMakeFiles/threebodies.dir/threebodies.cpp.i
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp > CMakeFiles/threebodies.dir/threebodies.cpp.i
 
 examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threebodies.dir/threebodies.cpp.s"
-	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /home/lucas/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp -o CMakeFiles/threebodies.dir/threebodies.cpp.s
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/threebodies.cpp -o CMakeFiles/threebodies.dir/threebodies.cpp.s
 
 # Object files for target threebodies
 threebodies_OBJECTS = \
@@ -153,24 +147,34 @@ threebodies_OBJECTS = \
 # External object files for target threebodies
 threebodies_EXTERNAL_OBJECTS =
 
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/build.make
-../public/threebodies.js: abcg/libabcg.a
-../public/threebodies.js: abcg/external/fmt/libfmt.a
-../public/threebodies.js: abcg/external/imgui/libimgui.a
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/linklibs.rsp
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/objects1.rsp
-../public/threebodies.js: examples/threebodies/CMakeFiles/threebodies.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../public/threebodies.js"
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/main.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/model.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/openglwindow.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/camera.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/body.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/threebodies.cpp.o
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/build.make
+bin/threebodies: abcg/libabcg.a
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libGLX.so
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libGLEW.so
+bin/threebodies: abcg/external/fmt/libfmt.a
+bin/threebodies: abcg/external/imgui/libimgui.a
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libSDL2main.a
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libSDL2.so
+bin/threebodies: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
+bin/threebodies: examples/threebodies/CMakeFiles/threebodies.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../bin/threebodies"
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E remove_directory /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies
 	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/threebodies.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E make_directory /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies.dir
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E copy /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies.dir/threebodies
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E remove /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E copy_directory /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies/assets /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies.dir/assets
+	cd /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodies && /usr/bin/cmake -E rename /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies.dir /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/bin/threebodies
 
 # Rule to build all files generated by this target.
-examples/threebodies/CMakeFiles/threebodies.dir/build: ../public/threebodies.js
+examples/threebodies/CMakeFiles/threebodies.dir/build: bin/threebodies
 
 .PHONY : examples/threebodies/CMakeFiles/threebodies.dir/build
 

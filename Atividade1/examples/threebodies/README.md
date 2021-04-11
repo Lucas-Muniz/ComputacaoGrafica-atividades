@@ -42,4 +42,6 @@ A aplicação também possui os controles de simulação:
 
 2. O método numérico utilizado para a resolução da equação diferecial ordinária que define o movimento dos corpos foi baseada no [método de Runge–Kutta](https://pt.wikipedia.org/wiki/M%C3%A9todo_de_Runge-Kutta).
 
+3. Não foi implementado a detecção de colisão dos corpos, logo um corpo pode acabar "entrando" no outro.
+
 A aplicação *Three Bodies Viewer* pode ser acessada nesta [página](https://lucas-muniz.github.io/ComputacaoGrafica-abcgapps/threebodies/).
