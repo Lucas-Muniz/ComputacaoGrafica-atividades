@@ -7,9 +7,9 @@ RA: 11201720792
 
 ##  *Visualizador de três corpos*
 
-Esta aplicação 3D, inspirada no clássico [problema dos três corpos](https://pt.wikipedia.org/wiki/Problema_dos_tr%C3%AAs_corpos), tem o objetivo de promover uma visualização tridimensional das órbitas de três corpos sujeitos apenas às atrações gravitacionais entre eles. O problema dos três corpos é conhecido por ser um sistem caótico que não possui solução analítica, sendo necessário o uso de métodos numéricos para o cálculo do movimento dos corpos. A aplicação permite que o usuário movimente a câmera pelo cenário, e também a modificação das massas de cada um dos corpos, possibilitando a visualização da mudança das órbitas gerada pela alteração da massa. O usuário pode escolher duas configurações de corpos:
+Esta aplicação 3D, inspirada no clássico [problema dos três corpos](https://pt.wikipedia.org/wiki/Problema_dos_tr%C3%AAs_corpos), tem o objetivo de promover uma visualização tridimensional das órbitas de três corpos que estão sujeitos às atrações gravitacionais entre eles. O problema dos três corpos é conhecido por ser um sistema caótico que não possui solução analítica, sendo necessário o uso de métodos numéricos para o cálculo do movimento dos corpos. Essa aplicação permite que o usuário movimente a câmera pelo cenário, e também permite a modificação das massas de cada um dos corpos, possibilitando a visualização da mudança das órbitas gerada pela alteração da massa. O usuário pode escolher duas configurações de corpos:
 
-* *8 Figure*: configuração baseada em uma solução estável do problema de três corpos. As órbitas dos corpos formam a figura do número 8 deitado. 
+* *8 Figure*: configuração baseada em uma solução estável do problema de três corpos. As órbitas dos corpos formam a figura de um número 8 deitado. 
 
 * *Chaotic*: configuração que inicia em um movimento estável, mas que adquire uma movimentação caótica rapidamente.
 
