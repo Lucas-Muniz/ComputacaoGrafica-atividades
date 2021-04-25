@@ -175,6 +175,19 @@ threebodies/fast:
 	$(MAKE) -f examples/threebodies/CMakeFiles/threebodies.dir/build.make examples/threebodies/CMakeFiles/threebodies.dir/build
 .PHONY : threebodies/fast
 
+#=============================================================================
+# Target rules for targets named threebodiesv2
+
+# Build rule for target.
+threebodiesv2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threebodiesv2
+.PHONY : threebodiesv2
+
+# fast build rule for target.
+threebodiesv2/fast:
+	$(MAKE) -f examples/threebodiesv2/CMakeFiles/threebodiesv2.dir/build.make examples/threebodiesv2/CMakeFiles/threebodiesv2.dir/build
+.PHONY : threebodiesv2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,6 +201,7 @@ help:
 	@echo "... fmt"
 	@echo "... spacebattle"
 	@echo "... threebodies"
+	@echo "... threebodiesv2"
 .PHONY : help
 
 

@@ -350,6 +350,12 @@ threebodies_BINARY_DIR:STATIC=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGraf
 //Value Computed by CMake
 threebodies_SOURCE_DIR:STATIC=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodies
 
+//Value Computed by CMake
+threebodiesv2_BINARY_DIR:STATIC=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/examples/threebodiesv2
+
+//Value Computed by CMake
+threebodiesv2_SOURCE_DIR:STATIC=/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/examples/threebodiesv2
+
 
 ########################
 # INTERNAL cache entries
@@ -463,7 +469,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -546,7 +552,7 @@ OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
 SDL2_IMAGE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_IMAGE_LIBRARY
 SDL2_IMAGE_LIBRARY-ADVANCED:INTERNAL=1
-SDL2_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread;-lpthread;-lpthread;-lpthread
+SDL2_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread;-lpthread
 //Result of TRY_COMPILE
 result:INTERNAL=TRUE
 

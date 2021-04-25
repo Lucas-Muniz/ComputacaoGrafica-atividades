@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_229d0/fast && /usr/bin/make -f CMakeFiles/cmTC_229d0.dir/build.make CMakeFiles/cmTC_229d0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_14b3c/fast && /usr/bin/make -f CMakeFiles/cmTC_14b3c.dir/build.make CMakeFiles/cmTC_14b3c.dir/build
 make[1]: Entrando no diretório '/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_229d0.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_229d0.dir/src.c.o   -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_229d0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229d0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_229d0.dir/src.c.o  -o cmTC_229d0 
-/usr/bin/ld: CMakeFiles/cmTC_229d0.dir/src.c.o: na função "main":
+Building C object CMakeFiles/cmTC_14b3c.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_14b3c.dir/src.c.o   -c /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_14b3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14b3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_14b3c.dir/src.c.o  -o cmTC_14b3c 
+/usr/bin/ld: CMakeFiles/cmTC_14b3c.dir/src.c.o: na função "main":
 src.c:(.text+0x46): referência não definida para "pthread_create"
 /usr/bin/ld: src.c:(.text+0x52): referência não definida para "pthread_detach"
 /usr/bin/ld: src.c:(.text+0x63): referência não definida para "pthread_join"
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_229d0.dir/build.make:87: cmTC_229d0] Erro 1
+make[1]: *** [CMakeFiles/cmTC_14b3c.dir/build.make:87: cmTC_14b3c] Erro 1
 make[1]: Saindo do diretório '/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_229d0/fast] Erro 2
+make: *** [Makefile:121: cmTC_14b3c/fast] Erro 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_32354/fast && /usr/bin/make -f CMakeFiles/cmTC_32354.dir/build.make CMakeFiles/cmTC_32354.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f0369/fast && /usr/bin/make -f CMakeFiles/cmTC_f0369.dir/build.make CMakeFiles/cmTC_f0369.dir/build
 make[1]: Entrando no diretório '/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_32354.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_32354.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_32354
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32354.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_32354.dir/CheckFunctionExists.c.o  -o cmTC_32354  -lpthreads 
+Building C object CMakeFiles/cmTC_f0369.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f0369.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0369.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f0369.dir/CheckFunctionExists.c.o  -o cmTC_f0369  -lpthreads 
 /usr/bin/ld: não foi possível localizar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_32354.dir/build.make:87: cmTC_32354] Erro 1
+make[1]: *** [CMakeFiles/cmTC_f0369.dir/build.make:87: cmTC_f0369] Erro 1
 make[1]: Saindo do diretório '/home/lucas/aulas-lab-CG/Atividades/ComputacaoGrafica-atividades/Atividade1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_32354/fast] Erro 2
+make: *** [Makefile:121: cmTC_f0369/fast] Erro 2
 
 
 
