@@ -7,7 +7,7 @@ RA: 11201720792
 
 ##  *Visualizador de três corpos - Versão 2* 
 
-Esta aplicação 3D, inspirada no clássico [problema dos três corpos](https://pt.wikipedia.org/wiki/Problema_dos_tr%C3%AAs_corpos), tem o objetivo de promover uma visualização tridimensional das órbitas de três corpos que estão sujeitos às atrações gravitacionais entre eles. O problema dos três corpos é conhecido por ser um sistema caótico que não possui solução analítica, sendo necessário o uso de métodos numéricos para o cálculo do movimento dos corpos. Essa aplicação permite que o usuário movimente a câmera pelo cenário, e também permite a modificação das massas de cada um dos corpos, possibilitando a visualização da mudança das órbitas gerada pela alteração da massa. O usuário pode escolher entre os *shaders* **blinnphong** e **texture**. O primeiro mostra os corpos sem texturização, mas com iluminação, sendo que neste *shader* a fonte de luz pode ser movimentada pelo usuário. Já o segundo apresenta corpos com texturizações (do Sol, da Terra e de Júpiter), porém a fonte de luz não pode ser movimentada pois ela é representada pelo corpo texturizado como o Sol. Em ambos os *shaders* utilizou-se o modelo de Blinn–Phong, usando sombreamento de Phong. O usuário também pode escolher duas configurações de corpos:
+Esta aplicação 3D, inspirada no clássico [problema dos três corpos](https://pt.wikipedia.org/wiki/Problema_dos_tr%C3%AAs_corpos), tem o objetivo de promover uma visualização tridimensional das órbitas de três corpos que estão sujeitos às atrações gravitacionais entre eles. O problema dos três corpos é conhecido por ser um sistema caótico que não possui solução analítica, sendo necessário o uso de métodos numéricos para o cálculo do movimento dos corpos. Essa aplicação permite que o usuário movimente a câmera pelo cenário, e também permite a modificação das massas de cada um dos corpos, possibilitando a visualização da mudança das órbitas gerada pela alteração da massa. O usuário pode escolher entre os *shaders* **texture** e **blinnphong**. O primeiro apresenta corpos com texturizações do Sol, da Terra e de Júpiter, sendo a fonte de luz representada pelo corpo texturizado como o Sol. Já o segundo mostra os corpos sem texturização, mas com iluminação, sendo que neste *shader* a fonte de luz pode ser movimentada pelo usuário. Em ambos os *shaders*, utilizou-se o modelo de Blinn–Phong com sombreamento de Phong. O usuário também pode escolher duas configurações de corpos:
 
 * *8 Figure*: configuração baseada em uma solução estável do problema de três corpos. As órbitas dos corpos formam a figura de um número 8 deitado. 
 
@@ -27,9 +27,9 @@ A aplicação possui os seguintes movimentos de câmera:
 
 A aplicação também possui os controles de simulação:
 
-* *Shader*: o *combo box* shader permite escolher o shader que o usuário deseja utilizar na geração da imagem.
+* *Shader*: o *combo box* <kbd>Shader</kbd> permite escolher o shader que o usuário deseja utilizar na geração da imagem.
 
-* Sistema: o *combo box* system permite escolher a configuração de corpos que o usuário quer visualizar (*8 Figure* ou *Chaotic*).
+* Sistema: o *combo box* <kbd>System</kbd> permite escolher a configuração de corpos que o usuário quer visualizar (*8 Figure* ou *Chaotic*).
 
 * Modificação das massas: os *sliders* permitem a modificação de cada um dos corpos. A massa inicial de todos os corpos é 1, mas pode ser modificada em valores de 0 a 10. Ao modificar a massa, é possível observar a mudança no tamanho do corpo.
 
@@ -50,4 +50,4 @@ Se o usuário estiver utilzando o shader **blinnphong**, é possível movimentar
 
 3. Não foi implementado a detecção de colisão dos corpos, logo, um corpo pode acabar "entrando" no outro.
 
-A aplicação *Three Bodies Viewer (Version 2)* pode ser acessada nesta [página](https://lucas-muniz.github.io/ComputacaoGrafica-abcgapps/threebodies/).
+A aplicação *Three Bodies Viewer (Version 2)* pode ser acessada nesta [página](https://lucas-muniz.github.io/ComputacaoGrafica-abcgapps/threebodiesv2/).
