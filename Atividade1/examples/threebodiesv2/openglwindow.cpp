@@ -226,7 +226,7 @@ void OpenGLWindow::updateSkyBoxWalls(glm::vec3 eye, float distance){
 
 void OpenGLWindow::paintUI() {
 
-  auto widgetSize{ImVec2(230, 230)};
+  auto widgetSize{ImVec2(230, 225)};
   ImGui::SetNextWindowPos(ImVec2(m_viewportWidth - widgetSize.x - 5,
                                  m_viewportHeight - widgetSize.y - 5));
   ImGui::SetNextWindowSize(widgetSize);

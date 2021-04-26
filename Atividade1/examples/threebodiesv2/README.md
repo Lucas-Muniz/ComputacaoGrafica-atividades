@@ -46,7 +46,7 @@ Se o usuário estiver utilzando o shader **blinnphong**, é possível movimentar
 
 1. A configuração *8 Figure* é uma solução estável do problema dos três corpos, mas devido ao acúmulo de erros do método numérico utilizado nessa aplicação, as órbitas dos corpos perdem a estabilidade com o tempo, podendo adquirir uma movimentação caótica.
 
-2. O método numérico utilizado para a resolução da equação diferecial ordinária que define o movimento dos corpos foi baseada no [método de Runge–Kutta](https://pt.wikipedia.org/wiki/M%C3%A9todo_de_Runge-Kutta).
+2. O método numérico utilizado para a resolução da equação diferecial ordinária que define o movimento dos corpos foi baseado no [método de Runge–Kutta](https://pt.wikipedia.org/wiki/M%C3%A9todo_de_Runge-Kutta).
 
 3. Não foi implementado a detecção de colisão dos corpos, logo, um corpo pode acabar "entrando" no outro.
 
